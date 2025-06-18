@@ -15,15 +15,15 @@ public class RelatorioController {
     @Autowired
     private RelatorioService service;
 
-    @GetMapping("estoque")
-    public ResponseEntity<RelatorioEstoque> obterInfoEstoque(){
-        var relatorio = service.infoEstoque();
-        return ResponseEntity.ok(relatorio);
-    }
-
-    @GetMapping("faturamento")
-    public ResponseEntity<RelatorioFaturamento> obterInfoFaturamento(){
-        var relatorio = service.faturamentoObtido();
-        return ResponseEntity.ok(relatorio);
-    }
+//    @GetMapping("estoque")
+//    public ResponseEntity<RelatorioEstoque> obterInfoEstoque(){
+//        var relatorio = service.infoEstoque();
+//        return ResponseEntity.ok(relatorio);
+//    }
+//
+//    @GetMapping("faturamento")
+//    public ResponseEntity<RelatorioFaturamento> obterInfoFaturamento(){
+//        var relatorio = service.faturamentoObtido();
+//        return ResponseEntity.ok(relatorio);
+//    }
 }
